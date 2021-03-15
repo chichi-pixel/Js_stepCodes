@@ -13,9 +13,9 @@ body {
     margin: 0;
 }
 
-.Container {
+.container {
     display: flex;
-    width: 90 vw;
+    width: 90vw;
 }
 
 .panel {
@@ -35,16 +35,15 @@ body {
 .panel h3 {
     font-size: 24px;
     position: absolute;
-    bottom: 20px;
+    bottom: 600px;
     left: 20px;
     margin: 0;
     opacity: 0;
 }
 
-.panel active h3{
+.panel.active h3{
     opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
-
+    transition: opacity 0.3s ease-in;
 }
 
 
